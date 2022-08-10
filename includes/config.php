@@ -1,9 +1,9 @@
-<?php
+:<?php
 ##### DB Configuration #####
 $DATABASE_HOST = 'localhost';
 $DATABASE_USER = 'root';
 $DATABASE_PASS = '';
-$DATABASE_NAME = 'db_op';
+$DATABASE_NAME = 'db_op'; 
 // Try and connect using the info above.
 $con = mysqli_connect($DATABASE_HOST, $DATABASE_USER, $DATABASE_PASS, $DATABASE_NAME);
 if ( mysqli_connect_errno() ) {
@@ -12,8 +12,6 @@ if ( mysqli_connect_errno() ) {
 }
 
 session_start();
-
-
 
 /*##### Google App Configuration #####
 $googleappid = "930450954196-kk733ju6m98mfiaqoh4js04ee92h1ep6.apps.googleusercontent.com"; 
